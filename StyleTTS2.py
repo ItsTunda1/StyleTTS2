@@ -1,5 +1,5 @@
 import torch
-from styletts2 import StyleTTS2  # your StyleTTS2 model loading code here
+from styletts2.models import StyleTTS2
 
 # Load pretrained StyleTTS2 model checkpoint
 model = StyleTTS2()
